@@ -1,7 +1,7 @@
 # SNIPPET 2 - REGISTER FORM
 ## CODE
 
-![alt text](https://github.com/mauro-codes/tailwind-css-snippets/blob/master/snippet-2/snippet-2.png "Snippet 2 - Code")
+[Click here](https://github.com/mauro-codes/tailwind-css-snippets/blob/master/snippet-2/snippet-2.html)
 
 ## RESULT:
 
