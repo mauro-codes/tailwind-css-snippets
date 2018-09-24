@@ -1,5 +1,5 @@
 # Tailwind CSS Snippets
----
+
 Tailwind is a utility-first CSS framework for rapidly building custom user interfaces.
 This repository contains my snippet library to easily build fully responsive websites.
 
