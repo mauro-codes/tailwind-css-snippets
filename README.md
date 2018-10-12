@@ -6,4 +6,5 @@ This repository contains my snippet library to easily build fully responsive web
 1. [Snippet 01 - Category List](https://github.com/mauro-codes/tailwind-css-snippets/tree/master/snippet-01)
 2. [Snippet 02 - Register Form](https://github.com/mauro-codes/tailwind-css-snippets/tree/master/snippet-02)
 3. [Snippet 03 - Price Table](https://github.com/mauro-codes/tailwind-css-snippets/tree/master/snippet-03)
-3. [Snippet 04 - Company Description Card](https://github.com/mauro-codes/tailwind-css-snippets/tree/master/snippet-04)
+4. [Snippet 04 - Company Description Card](https://github.com/mauro-codes/tailwind-css-snippets/tree/master/snippet-04)
+5. [Snippet 05 - Credit Card](https://github.com/mauro-codes/tailwind-css-snippets/tree/master/snippet-05)

@@ -5,4 +5,4 @@
 
 ## RESULT:
 
-![alt text](https://github.com/mauro-codes/tailwind-css-snippets/blob/master/snippet-04/snippet-04-result.png "Snippet 03 - Result")
+![alt text](https://github.com/mauro-codes/tailwind-css-snippets/blob/master/snippet-04/snippet-04-result.png "Snippet 04 - Result")
