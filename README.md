@@ -9,3 +9,4 @@ This repository contains my snippet library to easily build fully responsive web
 4. [Snippet 04 - Company Description Card](https://github.com/mauro-codes/tailwind-css-snippets/tree/master/snippet-04)
 5. [Snippet 05 - Credit Card](https://github.com/mauro-codes/tailwind-css-snippets/tree/master/snippet-05)
 6. [Snippet 06 - Author Card](https://github.com/mauro-codes/tailwind-css-snippets/tree/master/snippet-06)
+6. [Snippet 07 - Chatbot](https://github.com/mauro-codes/tailwind-css-snippets/tree/master/snippet-07)
