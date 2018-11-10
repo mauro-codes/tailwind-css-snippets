@@ -11,3 +11,4 @@ This repository contains my snippet library to easily build fully responsive web
 06. [Snippet 06 - Author Card](https://github.com/mauro-codes/tailwind-css-snippets/tree/master/snippet-06)
 07. [Snippet 07 - Chatbot](https://github.com/mauro-codes/tailwind-css-snippets/tree/master/snippet-07)
 08. [Snippet 08 - Profile Header](https://github.com/mauro-codes/tailwind-css-snippets/tree/master/snippet-08)
+09.  [Snippet 09 - Fitness App Card](https://github.com/mauro-codes/tailwind-css-snippets/tree/master/snippet-09)
