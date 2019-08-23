@@ -1,44 +1,42 @@
 <html>
-    <head>
-        <link href="https://cdn.jsdelivr.net/npm/tailwindcss@0.7.4/dist/tailwind.min.css" rel="stylesheet">
-        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
-            crossorigin="anonymous">
-    </head>
-    <body class="flex bg-purple-darkest">
-        <div class="self-center container mx-auto flex justify-center px-4">
-            <div class="w-full bg-purple-darker max-w-md shadow-lg font-sans">
-                <div class="w-full p-4 flex flex-col md:flex-row">
-                    <div class="w-full md:w-2/5 flex flex-col items-center justify-center">
-                        <img class="p-8 bg-grey-lighter md:h-24" src="https://goo.gl/ByUAHP" alt="">
-                        <p class="mt-2 mb-4 md:mb-0">
-                            <span class="fas fa-star text-pink"></span>
-                            <span class="fas fa-star text-pink"></span>
-                            <span class="fas fa-star text-pink"></span>
-                            <span class="fas fa-star text-pink"></span>
-                            <span class="far fa-star text-pink"></span>
-                        </p>
-                    </div>
-                    <div class="w-full md:w-3/5 flex flex-col">
-                        <p class="text-white font-bold text-lg uppercase tracking-wide mb-1">#1. GOOGLE</p>
-                        <p class="text-pink-dark text-sm tracking-wide mb-1">http://google.com</p>
-                        <p class="text-grey-light text-sm tracking-wide mb-4">Google LLC[5] is an American...</p>
-                        <div class="flex flex-wrap -mx-2">
-                            <div class="px-2 w-full md:w-1/2">
-                                <div class="flex-grow flex flex-col items-center justify-center bg-purple-darkest p-4">
-                                    <p class="text-white text-center">TOTAL EMPLOYEES</p>
-                                    <p class="text-pink text-center text-lg">72,053</p>
-                                </div>
-                            </div>
-                            <div class="flex px-2 w-full md:w-1/2">
-                                <div class="flex-grow flex flex-col items-center justify-center bg-purple-darkest p-4">
-                                    <p class="text-white text-center">JOB OPENINGS</p>
-                                    <p class="text-pink text-center text-lg">950</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </body>
+	<head>
+		<link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
+			integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+	</head>
+
+	<body class="flex bg-orange-500 justify-center items-center">
+		<div class="w-4/5 max-w-lg shadow-lg flex flex-wrap bg-white">
+			<div class="bg-blue-600 w-full md:w-2/5 flex justify-center py-4 text-white font-medium md:flex-col">
+				<i class="fas fa-credit-card text-white text-5xl md:mb-4 self-center px-2"></i>
+				<div class="flex items-center px-2 -mx-2 md:flex-col">
+					<p class="px-2">Total</p>
+					<div class="flex items-center tracking-tighter px-2">
+						<i class="mr-2 fas fa-dollar-sign"></i>
+						<span class="text-5xl">85.00</span>
+					</div>
+				</div>
+			</div>
+			<div class="bg-gray-100 w-full md:w-3/5 p-6">
+				<h2 class="my-4">Credit card</h2>
+				<p class="text-sm">NAME</p>
+				<p class="pb-4 border-gray-600 border-b text-xl">Hugo Reyes</p>
+				<p class="text-sm mt-4">CARD NUMBER</p>
+				<p class="pb-4 border-gray-600 border-b text-xl">4815 1623 4248 1516</p>
+				<div class="flex my-4 -mx-2">
+					<div class="px-2 w-1/2">
+						<p class="text-sm">EXPIRY</p>
+						<p class="pb-4 border-gray-600 border-b text-xl">04/08</p>
+					</div>
+					<div class="px-2 w-1/2">
+						<p class="text-sm">CVV</p>
+						<p class="pb-4 border-gray-600 border-b text-xl">151</p>
+					</div>
+				</div>
+				<button class="mt-2 p-4 bg-blue-500 text-white text-center w-full hover:bg-blue-600" type="button">
+					Proceed to checkout
+				</button>
+			</div>
+		</div>
+	</body>
 </html>

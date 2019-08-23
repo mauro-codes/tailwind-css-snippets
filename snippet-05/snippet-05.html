@@ -1,45 +1,40 @@
 <html>
-    <head>
-        <link href="https://cdn.jsdelivr.net/npm/tailwindcss@0.7.4/dist/tailwind.min.css" rel="stylesheet">
-        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
-            crossorigin="anonymous">
-    </head>
-    <body class="flex bg-orange">
-        <div class="self-center container mx-auto flex justify-center px-4">
-            <div class="w-full max-w-md shadow-lg font-sans flex flex-wrap">
-                <div class="bg-blue-dark w-full md:w-2/5 flex justify-center p-4 text-white font-medium">
-                    <div class="self-center text-center flex md:flex-col -mx-2">
-                        <p class="fas fa-credit-card text-white text-5xl md:mb-4 self-center px-2"></p>
-                        <div class="flex items-center px-2 -mx-2 md:flex-col">
-                            <p class="md:mb-2 px-2">Total</p>
-                            <div class="flex tracking-tight px-2">
-                                <span class="self-start mr-2 self-center fas fa-dollar-sign"></span>
-                                <span class="text-5xl">85.00</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="bg-grey-lightest w-full md:w-3/5 p-8">
-                    <h2 class="my-4">Credit card</h2>
-                    <p class="text-sm">NAME</p>
-                    <p class="pt-2 pb-4 border-grey-dark border-b text-xl font-medium">Hugo Reyes</p>
-                    <p class="text-sm mt-4">CARD NUMBER</p>
-                    <p class="pt-2 pb-4 border-grey-dark border-b text-xl font-medium">4815 1623 4248 1516</p>
-                    <div class="flex my-4 -mx-2">
-                        <div class="px-2 w-1/2">
-                            <p class="text-sm">EXPIRY</p>
-                            <p class="pt-2 pb-4 border-grey-dark border-b text-xl font-medium">04/08</p>
-                        </div>
-                        <div class="px-2 w-1/2">
-                            <p class="text-sm">CVV</p>
-                            <p class="pt-2 pb-4 border-grey-dark border-b text-xl font-medium">151</p>
-                        </div>
-                    </div>
-                    <button class="p-4 bg-blue text-white text-center font-medium w-full hover:bg-blue-dark" type="button">
-                        Proceed to checkout
-                    </button>
-                </div>
-            </div>
-        </div>
-    </body>
+	<head>
+		<link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
+			integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+	</head>
+
+	<body class="bg-red-600 flex justify-center items-center">
+		<div class="w-full max-w-sm shadow-lg font-sans flex flex-col overflow-hidden">
+			<div class="h-64 overflow-hidden">
+				<img src="https://bit.ly/2yqErAR" alt="">
+			</div>
+			<div class="bg-gray-100 w-full p-8 text-center flex flex-col items-center rounded-bl rounded-br">
+				<h2 class="text-2xl">Beethoven Virus</h2>
+				<p class="text-sm mb-8 text-gray-600"><i class="fas fa-map-marker-alt"></i> Philippines</p>
+				<div id="stats" class="flex justify-between w-4/5">
+					<div>
+						<p class="text-sm text-gray-500">WORKS</p>
+						<p class="text-2xl">8</p>
+					</div>
+					<div>
+						<p class="text-sm text-gray-500">LIKE</p>
+						<p class="text-2xl">190</p>
+					</div>
+					<div>
+						<p class="text-sm text-gray-500">FANS</p>
+						<p class="text-2xl">90</p>
+					</div>
+				</div>
+				<div id="actions" class="flex justify-between w-4/5 mt-8 items-center">
+					<i class="fas fa-heart text-gray-500 text-lg mr-4"></i>
+					<button class="p-4 bg-red-600 text-white rounded w-4/5 hover:bg-red-500" type="button">
+						Following
+					</button>
+					<i class="fas fa-comment text-gray-500 text-lg ml-4"></i>
+				</div>
+			</div>
+		</div>
+	</body>
 </html>

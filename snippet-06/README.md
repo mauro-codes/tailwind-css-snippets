@@ -1,4 +1,4 @@
-# SNIPPET 06 - AUTHOR CARD
+# SNIPPET 06 - CHATBOT
 ## CODE
 
 [Click here](https://github.com/mauro-codes/tailwind-css-snippets/blob/master/snippet-06/snippet-06.html)

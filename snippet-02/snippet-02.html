@@ -1,61 +1,41 @@
 <html>
-    <head>
-        <link href="https://cdn.jsdelivr.net/npm/tailwindcss@0.7.4/dist/tailwind.min.css" rel="stylesheet">
-        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
-            crossorigin="anonymous">
-    </head>
-    <body class="flex bg-teal-dark">
-        <div class="self-center container mx-auto flex justify-center px-4">
-            <form class="w-full max-w-md bg-grey-lighter shadow-lg rounded">
-                <div class="bg-teal-darker p-8 flex justify-center rounded-tl rounded-tr">
-                    <p class="text-white text-center tracking-wide">Register for free account</p>
-                </div>
-                <div class="p-8">
-                    <div class="flex flex-wrap -mx-3">
-                        <div class="w-full px-3 mb-6">
-                            <label class="block uppercase tracking-wide text-grey-darker text-xs font-bold mb-2" for="username">
-                                Username
-                            </label>
-                            <input class="appearance-none block w-full bg-grey-light text-grey-darker border border-red 
-                                rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white" 
-                                id="username" type="text" placeholder="Username">
-                            <p class="text-red text-xs italic">Username is required</p>
-                        </div>
-                        <div class="w-full px-3 mb-6">
-                            <label class="block uppercase tracking-wide text-grey-darker text-xs font-bold mb-2" for="email">
-                                Email
-                            </label>
-                            <input id="email" type="email" class="appearance-none block w-full bg-grey-light text-grey-darker border 
-                                    rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white" placeholder="Email">
-                        </div>
-                    </div>
-                    <div class="flex flex-wrap -mx-3">
-                        <div class="w-full md:w-1/2 px-3 mb-6">
-                            <label class="block uppercase tracking-wide text-grey-darker text-xs font-bold mb-2" for="password">
-                                Password
-                            </label>
-                            <input class="block w-full bg-grey-light text-grey-darker border border-grey-lighter 
-                                rounded py-3 px-4 focus:outline-none focus:bg-white focus:border-grey" 
-                                id="password" type="password" placeholder="********">
-                        </div>
-                        <div class="w-full md:w-1/2 px-3 mb-6">
-                            <label class="block uppercase tracking-wide text-grey-darker text-xs font-bold mb-2" for="repeat-password">
-                                Repeat Password
-                            </label>
-                            <input class="block w-full bg-grey-light text-grey-darker border border-grey-lighter rounded py-3 px-4 
-                                focus:outline-none focus:bg-white focus:border-grey" id="repeat-password" type="password" 
-                                placeholder="********">
-                        </div>
-                    </div>
-                    <div class="flex justify-center">
-                        <button class="shadow bg-teal-dark hover:bg-teal focus:shadow-outline focus:outline-none 
-                        text-white font-bold py-2 px-4 rounded" type="button">
-                            <i class="py-2 pr-2 text-white fas fa-sign-in-alt fa-lg"></i>
-                            Sign Up
-                        </button>
-                    </div>
-                </div>
-            </form>
-        </div>
-    </body>
+	<head>
+		<link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
+			integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+	</head>
+	<body class="flex bg-teal-600 justify-center items-center">
+		<form class="w-full max-w-md bg-gray-300 shadow-lg rounded overflow-hidden">
+			<div class="bg-teal-700 p-8">
+				<p class="text-white text-center tracking-wider">Register for free account</p>
+			</div>
+			<div class="p-6">
+				<div class="w-full mb-6 px-2">
+					<label class="block uppercase tracking-wider text-gray-700 text-xs font-bold mb-2" for="username">Username</label>
+					<input class="appearance-none block w-full bg-gray-400 text-gray-700 border border-red-500 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white" id="username" type="text" placeholder="Username">
+					<p class="text-red-500 text-xs italic">Username is required</p>
+				</div>
+				<div class="w-full mb-6 px-2">
+					<label class="block uppercase tracking-wider text-gray-700 text-xs font-bold mb-2" for="email">Email</label>
+					<input id="email" type="email" class="appearance-none block w-full bg-gray-400 text-gray-700 border rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white" placeholder="Email">
+				</div>
+				<div class="flex flex-wrap">
+					<div class="w-full md:w-1/2 px-2 mb-6">
+						<label class="block uppercase tracking-wider text-gray-700 text-xs font-bold mb-2" for="password">Password</label>
+						<input class="block w-full bg-gray-400 text-gray-700 border border-gray-300 rounded py-3 px-4 focus:outline-none focus:bg-white focus:border-gray" id="password" type="password" placeholder="********">
+					</div>
+					<div class="w-full md:w-1/2 px-2 mb-6">
+						<label class="block uppercase tracking-wider text-gray-700 text-xs font-bold mb-2" for="repeat-password">Repeat Password</label>
+						<input class="block w-full bg-gray-400 text-gray-700 border border-gray-300 rounded py-3 px-4 focus:outline-none focus:bg-white focus:border-gray" id="repeat-password" type="password" placeholder="********">
+					</div>
+				</div>
+				<div class="flex justify-center">
+					<button class="shadow bg-teal-600 hover:bg-teal-500 focus:shadow-outline focus:outline-none text-white py-2 px-4 rounded" type="button">
+						<i class="py-2 pr-2 text-white fas fa-sign-in-alt fa-lg"></i>
+						Sign Up
+					</button>
+				</div>
+			</div>
+		</form>
+	</body>
 </html>
